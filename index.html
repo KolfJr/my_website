@@ -26,7 +26,10 @@
     <img src="image profile.jpg" height="400" width="300" alt="foto do perfil" title="Imagem de perfil do Júnior Kolf">
 
     <article>
-      <p>Sou um entusiasta da tecnologia e estou iniciando minha jornada no desenvolvimento web. <br> Atualmente, estou aprendendo HTML, CSS e JavaScript, com o objetivo de criar páginas interativas e funcionais. <br> Tenho interesse em entender os fundamentos do front-end e aprimorar minhas habilidades para desenvolver projetos cada vez mais completos. <br>
+      <p>Sou um entusiasta da tecnologia e estou iniciando minha jornada no desenvolvimento web. <br> Atualmente, estou
+        aprendendo HTML, CSS e JavaScript, com o objetivo de criar páginas interativas e funcionais. <br> Tenho
+        interesse em entender os fundamentos do front-end e aprimorar minhas habilidades para desenvolver projetos cada
+        vez mais completos. <br>
 
         Estou sempre buscando novos desafios e aprendizados para evoluir nessa área fascinante da programação. 🚀</p>
     </article>
@@ -48,9 +51,12 @@
     <article>
       <h3>Portifólio</h3>
       <p>
-        Este é o primeiro site que desenvolvi enquanto estudo HTML, CSS e JavaScript. <br> Criá-lo foi um grande aprendizado, e cada linha de código escrita me ajudou a entender melhor os fundamentos do desenvolvimento front-end. <br>
+        Este é o primeiro site que desenvolvi enquanto estudo HTML, CSS e JavaScript. <br> Criá-lo foi um grande
+        aprendizado, e cada linha de código escrita me ajudou a entender melhor os fundamentos do desenvolvimento
+        front-end. <br>
 
-Ainda estou explorando e aprimorando minhas habilidades, e este site representa o começo da minha jornada no mundo da programação. <br> Fique à vontade para navegar e acompanhar minha evolução! 🚀
+        Ainda estou explorando e aprimorando minhas habilidades, e este site representa o começo da minha jornada no
+        mundo da programação. <br> Fique à vontade para navegar e acompanhar minha evolução! 🚀
       </p>
     </article>
 
@@ -65,11 +71,35 @@ Ainda estou explorando e aprimorando minhas habilidades, e este site representa 
 
       <p>Tem um projeto em mente? Entre em contato.</p>
 
-      <address>
-        Email: <a href="mailto:juniorfurtadooficial@gmail.com">juniorfurtadooficial@gmail.com</a> <br>
-        Telefone: <a href="tel:+5547984185782">(47) 98418-5782</a> <br>
-        Instagram: <a href="https://www.instagram.com/furtado_junioroficial" target="_blank">@furtado_junioroficial</a>
-      </address>
+      <form action="">
+
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" required> <br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" required> <br>
+
+        <label for="telefone">Telefone: </label>
+        <input type="tel" id="Telefone" name="telefone"> <br>
+
+        <label for="assunto">Assunto: </label>
+        <select name="assunto" id="assunto">
+          <option value="orcamento">Orçamento</option>
+          <option value="duvida">Dúvida</option>
+          <option value="outro">Outro</option>
+        </select>
+        <br>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
+        <br>
+        <input type="checkbox" name="inscricao" id="inscricao">
+        <label for="inscricao">Deseja receber minha newsletter? Fique por dentro.</label>
+        <br>
+
+        <input type="submit" value="Enviar mensagem">
+      </form>
+      
     </section>
   </footer>
 </body>
